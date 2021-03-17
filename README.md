@@ -10,7 +10,7 @@ LabVIEW 2017
 
 ### Built Availability ###
 
-Builds not available, everything in project is there to build.
+Builds available in the builds directory, everything in project is there to build.
 
 ### Quality, Limitations ###
 
