@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -26,22 +26,22 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Channels Library</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2017/Custom Devices/Shared Variables CD 2.0/Data</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Administrator/Desktop/GIT/Shared-Variable-Custom-Device-2.0/Source/built/windows</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{691B186B-15D1-4B7A-ADC5-B8A801A21673}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Channel.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2017/Custom Devices/Shared Variables CD 2.0/Data/Channel.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Administrator/Desktop/GIT/Shared-Variable-Custom-Device-2.0/Source/built/windows/Channel.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2017/Custom Devices/Shared Variables CD 2.0/Data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/Administrator/Desktop/GIT/Shared-Variable-Custom-Device-2.0/Source/built/windows</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{672D4674-3806-4E75-9140-8AA0D571698E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AD494277-C99F-4744-BAA2-53703D866912}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Channel/Channel.lvlib</Property>

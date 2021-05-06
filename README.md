@@ -6,11 +6,15 @@ See Documentation (Add....)
 
 ### LabVIEW Version ###
 
-LabVIEW 2017
+LabVIEW 2020
 
 ### Built Availability ###
 
 Builds available in the builds directory, everything in project is there to build.
+
+### Build Process ###
+
+Build the following components in order (TBC)
 
 ### Quality, Limitations ###
 

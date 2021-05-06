@@ -2,10 +2,6 @@
 <Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
-	<Property Name="varPersistentID:{0181209F-E104-4F00-9D4F-0E4BF55F7367}" Type="Ref">/RT CompactRIO Target/_Test/testSVlib.lvlib/FromCD</Property>
-	<Property Name="varPersistentID:{1384B103-3B1E-4221-B1E3-B11D4252DBA5}" Type="Ref">/RT CompactRIO Target/_Test/testSVlib.lvlib/toCD</Property>
-	<Property Name="varPersistentID:{1E22E762-742A-4863-9F5D-A9C4B0A8A9E3}" Type="Ref">/My Computer/_Test/testSVlib.lvlib/toCD</Property>
-	<Property Name="varPersistentID:{4C8E25EB-F567-48D2-9E01-9DC919CCF852}" Type="Ref">/My Computer/_Test/testSVlib.lvlib/FromCD</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -91,9 +87,6 @@
 			</Item>
 		</Item>
 		<Item Name="_deps" Type="Folder"/>
-		<Item Name="_Test" Type="Folder">
-			<Item Name="testSVlib.lvlib" Type="Library" URL="../../_Tests/testSVlib.lvlib"/>
-		</Item>
 		<Item Name="Custom Device Shared Variables CD 2.0.xml" Type="Document" URL="../Custom Device Shared Variables CD 2.0.xml"/>
 		<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 		<Item Name="Shared Variables CD 2.0 Configuration.lvlib" Type="Library" URL="../Configuration/Shared Variables CD 2.0 Configuration.lvlib"/>
@@ -174,9 +167,6 @@
 			<Item Name="ws2_32.dll" Type="Document" URL="ws2_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="nitaglv.dll" Type="Document" URL="nitaglv.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration" Type="Source Distribution">
@@ -185,23 +175,25 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Configuration</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Shared Variables CD 2.0</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build Support/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Administrator/Desktop/GIT/Shared-Variable-Custom-Device-2.0/built</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{81FCD44D-B9FD-44D4-9664-F0FE5D64AAE5}</Property>
-				<Property Name="Bld_version.build" Type="Int">347</Property>
+				<Property Name="Bld_version.build" Type="Int">343</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Shared Variables CD 2.0</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Administrator/Desktop/GIT/Shared-Variable-Custom-Device-2.0/built</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Shared Variables CD 2.0/Data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/Administrator/Desktop/GIT/Shared-Variable-Custom-Device-2.0/built/Data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].destName" Type="Str">Shared Variables CD 2.0 Configuration LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/Users/Administrator/Desktop/GIT/Shared-Variable-Custom-Device-2.0/built/Shared Variables CD 2.0 Configuration.llb</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="Destination[3].destName" Type="Str">Glyphs</Property>
-				<Property Name="Destination[3].path" Type="Path">../Built/Shared Variables CD 2.0/Glyphs</Property>
+				<Property Name="Destination[3].path" Type="Path">/C/Users/Administrator/Desktop/GIT/Shared-Variable-Custom-Device-2.0/built/Glyphs</Property>
+				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FDF1D4C0-C29F-4816-A462-1B8BCE19FD57}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6DC35F36-596A-40B6-B265-D69CCF41352F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Shared Variables CD 2.0.xml</Property>
@@ -248,33 +240,43 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Shared Variables CD 2.0/Windows/Shared Variables CD.llb</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/SE/Desktop/Shared-Variables-Custom-device/Build/Shared Variables CD 2.0</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build Support/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{660E161F-9BF5-4F5C-A978-8C1B7B206E7F}</Property>
-				<Property Name="Bld_version.build" Type="Int">244</Property>
+				<Property Name="Bld_version.build" Type="Int">243</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Shared Variables CD 2.0/Windows/Shared Variables CD.llb</Property>
-				<Property Name="Destination[0].type" Type="Str">LLB</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/SE/Desktop/Shared-Variables-Custom-device/Build/Shared Variables CD 2.0</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Shared Variables CD 2.0/Windows/Data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FDF1D4C0-C29F-4816-A462-1B8BCE19FD57}</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/SE/Desktop/Shared-Variables-Custom-device/Build/Shared Variables CD 2.0/Data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[2].destName" Type="Str">Shared Variables CD 2.0 Engine LLB</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/Users/SE/Desktop/Shared-Variables-Custom-device/Build/Shared Variables CD 2.0/Shared Variables CD 2.0 Engine.llb</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[2].type" Type="Str">LLB</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9436AAF5-E2B3-40F6-B2C9-2249FD8827BA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Shared Variables CD 2.0 Engine.lvlib/Engine</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[1].type" Type="Str">Container</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Async Process/SV Interface (Pharlap).lvlibp</Property>
-				<Property Name="Source[2].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Shared Variables CD 2.0 Engine.lvlib/Engine/Shared Variables CD 2.0 RT Driver VI.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Shared Variables CD 2.0 Configuration.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Shared Variables CD 2.0 Engine.lvlib/Engine</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Async Process/SV Interface (Pharlap).lvlibp</Property>
+				<Property Name="Source[4].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -357,7 +359,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build Support/Post-Build Action - Remove C Dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{ED2CC4EC-A8C1-4425-A4A9-21B3675A767E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c</Property>
-				<Property Name="Bld_version.build" Type="Int">42</Property>
+				<Property Name="Bld_version.build" Type="Int">41</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SV Interface (Pharlap).lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/SV Interface (Pharlap).lvlibp</Property>
@@ -391,9 +393,9 @@
 	</Item>
 	<Item Name="RT CompactRIO Target" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">RT CompactRIO Target</Property>
-		<Property Name="alias.value" Type="Str">10.96.1.12</Property>
-		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;DeviceCode,7878;</Property>
-		<Property Name="crio.ControllerPID" Type="Str">7878</Property>
+		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
+		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;DeviceCode,77DD;</Property>
+		<Property Name="crio.ControllerPID" Type="Str">77DD</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
@@ -431,34 +433,6 @@
 		<Property Name="target.server.vi.access" Type="Str">+*</Property>
 		<Property Name="target.server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.vi.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="target.WebServer.Config" Type="Str">Listen 8000
-
-NI.ServerName default
-DocumentRoot "$LVSERVER_DOCROOT"
-TypesConfig "$LVSERVER_CONFIGROOT/mime.types"
-DirectoryIndex index.htm
-WorkerLimit 10
-InactivityTimeout 60
-
-LoadModulePath "$LVSERVER_MODULEPATHS"
-LoadModule LVAuth lvauthmodule
-LoadModule LVRFP lvrfpmodule
-
-#
-# Pipeline Definition
-#
-
-SetConnector netConnector
-
-AddHandler LVAuth
-AddHandler LVRFP
-
-AddHandler fileHandler ""
-
-AddOutputFilter chunkFilter
-
-
-</Property>
 		<Property Name="target.WebServer.Enabled" Type="Bool">false</Property>
 		<Property Name="target.WebServer.LogEnabled" Type="Bool">false</Property>
 		<Property Name="target.WebServer.LogPath" Type="Path">/c/ni-rt/system/www/www.log</Property>
@@ -470,36 +444,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Async Process" Type="Folder">
-			<Item Name="SV Interface (Linux_x64).lvlibp" Type="LVLibp" URL="../Support/SV Interface (Linux_x64).lvlibp">
-				<Item Name="DataTypes" Type="Folder">
-					<Item Name="DBL.lvlib" Type="Library" URL="../Support/SV Interface (Linux_x64).lvlibp/DataTypes/DBL.lvlib"/>
-					<Item Name="Bool.lvlib" Type="Library" URL="../Support/SV Interface (Linux_x64).lvlibp/DataTypes/Bool.lvlib"/>
-				</Item>
-				<Item Name="SubVIs" Type="Folder">
-					<Item Name="Create FIFOs.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/SubVI/Create FIFOs.vi"/>
-					<Item Name="Error Handler.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/SubVI/Error Handler.vi"/>
-					<Item Name="Read SV.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/SubVI/Read SV.vi"/>
-					<Item Name="Stop and Stop on Error.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/SubVI/Stop and Stop on Error.vi"/>
-					<Item Name="Write SV.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/SubVI/Write SV.vi"/>
-				</Item>
-				<Item Name="Clear Errors.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="../Support/SV Interface (Linux_x64).lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Initialize SV Interface.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/Initialize SV Interface.vi"/>
-				<Item Name="ni_tagger_lv_FlushAllConnections.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/1abvi3w/vi.lib/variable/tagger/ni_tagger_lv_FlushAllConnections.vi"/>
-				<Item Name="NI_VariableUtilities.lvlib" Type="Library" URL="../Support/SV Interface (Linux_x64).lvlibp/1abvi3w/vi.lib/Utility/Variable/NI_VariableUtilities.lvlib"/>
-				<Item Name="nirviCommon.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
-				<Item Name="Notify Closing Status.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/Notify Closing Status.vi"/>
-				<Item Name="Open References to Shared Variables.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/Open References to Shared Variables.vi"/>
-				<Item Name="Run SV process.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/Run SV process.vi"/>
-				<Item Name="Stop and Close SV.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/Stop and Close SV.vi"/>
-				<Item Name="SV Data.ctl" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/SV Data.ctl"/>
-				<Item Name="SV Process Configuration.ctl" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/SV Process Configuration.ctl"/>
-				<Item Name="SV_Process.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV_Process.vi"/>
-				<Item Name="SVGlobal_ReadStat.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/SVGlobal_ReadStat.vi"/>
-				<Item Name="SVGlobal_StatusStop.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/SVGlobal_StatusStop.vi"/>
-				<Item Name="SVGlobal_WriteStat.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/SVGlobal_WriteStat.vi"/>
-			</Item>
+			<Item Name="SV Interface (Linux_x64).lvlibp" Type="LVLibp" URL="../Support/SV Interface (Linux_x64).lvlibp"/>
 		</Item>
 		<Item Name="Shared" Type="Folder">
 			<Item Name="Device Settings" Type="Folder">
@@ -523,9 +468,6 @@ AddOutputFilter chunkFilter
 		<Item Name="Shared DataTypes" Type="Folder">
 			<Item Name="SV Process Data.ctl" Type="VI" URL="../../Shared DataTypes/SV Process Data.ctl"/>
 			<Item Name="URLs.ctl" Type="VI" URL="../../Shared DataTypes/URLs.ctl"/>
-		</Item>
-		<Item Name="_Test" Type="Folder">
-			<Item Name="testSVlib.lvlib" Type="Library" URL="../../_Tests/testSVlib.lvlib"/>
 		</Item>
 		<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 		<Item Name="Shared Variable Interface.lvlib" Type="Library" URL="../../SV Interface/Shared Variable Interface.lvlib"/>
@@ -587,23 +529,25 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Shared Variables CD 2.0</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Administrator/Desktop/GIT/Shared-Variable-Custom-Device-2.0/built</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build Support/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build Support/Post-Build Action - Remove Linux home Dir_Engine.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A9E9DD3E-9940-4D23-8AB6-72F973571B82}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">Linux64/Shared Variable CD 2.0 Engine (Linux_x64).llb</Property>
-				<Property Name="Bld_version.build" Type="Int">57</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
+				<Property Name="Bld_version.build" Type="Int">54</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">Linux64/Shared Variable CD 2.0 Engine (Linux_x64).llb</Property>
+				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/Linux64</Property>
+				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A236CEFA-482C-4E05-9A72-AF801D281904}</Property>
+				<Property Name="Destination[2].destName" Type="Str">Shared Variable CD 2.0 Engine (Linux_x64)</Property>
+				<Property Name="Destination[2].path" Type="Path">/home/lvuser/natinst/bin/Shared Variable CD 2.0 Engine (Linux_x64).llb</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[2].type" Type="Str">LLB</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E5792D50-67B6-4F91-8CA1-07096BED2ADE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">1</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/Async Process/SV Interface (Linux_x64).lvlibp</Property>
@@ -612,7 +556,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/Shared Variables CD 2.0 Engine.lvlib/Engine</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
@@ -629,6 +573,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDir" Type="Path">../Support</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build Support/Post-Build Action - Remove Linux home Dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F483C054-5960-4AC8-8BA7-065B215B97CB}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
 				<Property Name="Bld_version.build" Type="Int">40</Property>
@@ -642,7 +587,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A236CEFA-482C-4E05-9A72-AF801D281904}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E5792D50-67B6-4F91-8CA1-07096BED2ADE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/Shared Variable Interface.lvlib</Property>

@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -11,6 +11,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="_deps" Type="Folder">
+			<Item Name="Channel.lvlibp" Type="LVLibp" URL="../../../built/windows/Channel.lvlibp">
+				<Item Name="Channel.lvclass" Type="LVClass" URL="../../../built/windows/Channel.lvlibp/Channel.lvclass"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="../../../built/windows/Channel.lvlibp/1abvi3w/vi.lib/Utility/Data Type/NI_Data Type.lvlib"/>
+			</Item>
+		</Item>
 		<Item Name="ImportExportFile" Type="Folder">
 			<Item Name="ImportExport.lvlib" Type="Library" URL="../ImportExport.lvlib"/>
 		</Item>
@@ -23,10 +29,6 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 			</Item>
-			<Item Name="Channel.lvlibp" Type="LVLibp" URL="../../../../../../../Public/Documents/National Instruments/NI VeriStand 2017/Custom Devices/Shared Variables CD 2.0/Data/Channel.lvlibp">
-				<Item Name="Channel.lvclass" Type="LVClass" URL="../../../../../../../Public/Documents/National Instruments/NI VeriStand 2017/Custom Devices/Shared Variables CD 2.0/Data/Channel.lvlibp/Channel.lvclass"/>
-				<Item Name="NI_Data Type.lvlib" Type="Library" URL="../../../../../../../Public/Documents/National Instruments/NI VeriStand 2017/Custom Devices/Shared Variables CD 2.0/Data/Channel.lvlibp/1abvi3w/vi.lib/Utility/Data Type/NI_Data Type.lvlib"/>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="ImportExport Library" Type="Packed Library">
@@ -36,22 +38,22 @@
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2017/Custom Devices/Shared Variables CD 2.0/Data</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Administrator/Desktop/GIT/Shared-Variable-Custom-Device-2.0/Source/built/windows</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{13BC4820-332F-4B7B-9F38-B4B5EBDD0A86}</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
+				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ImportExport.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2017/Custom Devices/Shared Variables CD 2.0/Data/NI_AB_PROJECTNAME.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Administrator/Desktop/GIT/Shared-Variable-Custom-Device-2.0/Source/built/windows/NI_AB_PROJECTNAME.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2017/Custom Devices/Shared Variables CD 2.0/Data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/Administrator/Desktop/GIT/Shared-Variable-Custom-Device-2.0/Source/built/windows</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EC9BCB2E-CE2F-4A40-B963-0D42436A0032}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3B92D253-4FEA-46D7-B32F-68CE46E3377D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ImportExportFile/ImportExport.lvlib</Property>

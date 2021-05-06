@@ -1,0 +1,20 @@
+# Libraries
+*.lvlibp
+*.llb
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+
+# Metadata
+*.aliases
+*.lvlps
+Source/Shared Variables CD 2.0/Support
+Builds/
+built/
+Source/Built

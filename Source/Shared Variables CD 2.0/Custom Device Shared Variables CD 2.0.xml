@@ -30,9 +30,9 @@
         <SupportedTarget>Linux_x64</SupportedTarget>
         <Source>
           <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\Shared Variables CD 2.0\Shared Variable CD 2.0 Engine (Linux_x64).llb\Shared Variables CD 2.0 RT Driver VI.vi</Path>
+          <Path>Custom Devices\Shared Variables CD 2.0\Linux64\Shared Variable CD 2.0 Engine (Linux_x64).llb\Shared Variables CD 2.0 RT Driver VI.vi</Path>
         </Source>
-        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Shared Variables CD 2.0\Shared Variable CD 2.0 Engine (Linux_x64).llb\Shared Variables CD 2.0 RT Driver VI.vi</RealTimeSystemDestination>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Shared Variables CD 2.0\Linux64\Shared Variable CD 2.0 Engine (Linux_x64).llb\Shared Variables CD 2.0 RT Driver VI.vi</RealTimeSystemDestination>
       </Source>
     </SourceDistribution>
   </CustomDeviceVI>
@@ -49,9 +49,9 @@
       <SupportedTarget>Linux_x64</SupportedTarget>
       <Source>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Shared Variables CD 2.0\Data\SV Interface (Linux_x64).lvlibp</Path>
+        <Path>Custom Devices\Shared Variables CD 2.0\Linux64\SV Interface (Linux_x64).lvlibp</Path>
       </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Shared Variables CD 2.0\SV Interface (Linux_x64).lvlibp</RealTimeSystemDestination>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Shared Variables CD 2.0\Linux64\SV Interface (Linux_x64).lvlibp</RealTimeSystemDestination>
     </Dependency>
   </Dependencies>
   <Pages>
