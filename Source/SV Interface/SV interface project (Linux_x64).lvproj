@@ -14,15 +14,18 @@
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
-	<Item Name="RT PXI Target" Type="RT PXI Chassis">
-		<Property Name="alias.name" Type="Str">RT PXI Target</Property>
-		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
-		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,PharLap;CPU,x86;</Property>
+	<Item Name="RT CompactRIO Target" Type="RT CompactRIO">
+		<Property Name="alias.name" Type="Str">RT CompactRIO Target</Property>
+		<Property Name="alias.value" Type="Str">10.96.1.12</Property>
+		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;DeviceCode,7878;</Property>
+		<Property Name="crio.ControllerPID" Type="Str">7878</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
-		<Property Name="host.TargetCPUID" Type="UInt">3</Property>
-		<Property Name="host.TargetOSID" Type="UInt">15</Property>
+		<Property Name="host.TargetCPUID" Type="UInt">9</Property>
+		<Property Name="host.TargetOSID" Type="UInt">19</Property>
+		<Property Name="host.TargetUIEnabled" Type="Bool">false</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
@@ -41,7 +44,7 @@
 		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
 		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
-		<Property Name="target.RTTarget.VIPath" Type="Path">/c/ni-rt/startup</Property>
+		<Property Name="target.RTTarget.VIPath" Type="Path">/home/lvuser/natinst/bin</Property>
 		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.tcp.access" Type="Str">+*</Property>
@@ -53,6 +56,34 @@
 		<Property Name="target.server.vi.access" Type="Str">+*</Property>
 		<Property Name="target.server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="target.WebServer.Config" Type="Str">Listen 8000
+
+NI.ServerName default
+DocumentRoot "$LVSERVER_DOCROOT"
+TypesConfig "$LVSERVER_CONFIGROOT/mime.types"
+DirectoryIndex index.htm
+WorkerLimit 10
+InactivityTimeout 60
+
+LoadModulePath "$LVSERVER_MODULEPATHS"
+LoadModule LVAuth lvauthmodule
+LoadModule LVRFP lvrfpmodule
+
+#
+# Pipeline Definition
+#
+
+SetConnector netConnector
+
+AddHandler LVAuth
+AddHandler LVRFP
+
+AddHandler fileHandler ""
+
+AddOutputFilter chunkFilter
+
+
+</Property>
 		<Property Name="target.WebServer.Enabled" Type="Bool">false</Property>
 		<Property Name="target.WebServer.LogEnabled" Type="Bool">false</Property>
 		<Property Name="target.WebServer.LogPath" Type="Path">/c/ni-rt/system/www/www.log</Property>
@@ -69,44 +100,44 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="ni_tagger_lv_FlushAllConnections.vi" Type="VI" URL="/&lt;vilib&gt;/variable/tagger/ni_tagger_lv_FlushAllConnections.vi"/>
 				<Item Name="NI_VariableUtilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Variable/NI_VariableUtilities.lvlib"/>
+				<Item Name="ni_tagger_lv_FlushAllConnections.vi" Type="VI" URL="/&lt;vilib&gt;/variable/tagger/ni_tagger_lv_FlushAllConnections.vi"/>
 			</Item>
 			<Item Name="nitaglv.dll" Type="Document" URL="nitaglv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SV Process Data.ctl" Type="VI" URL="../../Shared DataTypes/SV Process Data.ctl"/>
 			<Item Name="URLs.ctl" Type="VI" URL="../../Shared DataTypes/URLs.ctl"/>
+			<Item Name="SV Process Data.ctl" Type="VI" URL="../../Shared DataTypes/SV Process Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="SV Interface Pharlap" Type="Packed Library">
+			<Item Name="SV Interface (Linux_x64)" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{DCD2BA9C-B8C7-4804-9C5B-EBBCBF9BF720}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">SV Interface Pharlap</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{8FFFD5C9-8F87-4E19-913C-2EB127DB84B1}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">SV Interface (Linux_x64)</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Shared Variables CD 2.0/Pharlap</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Shared Variables CD 2.0</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{ED2CC4EC-A8C1-4425-A4A9-21B3675A767E}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/c</Property>
-				<Property Name="Bld_version.build" Type="Int">45</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{F483C054-5960-4AC8-8BA7-065B215B97CB}</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/Linux64</Property>
+				<Property Name="Bld_version.build" Type="Int">43</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">SV Interface (Pharlap).lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/c/SV Interface (Pharlap).lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">SV Interface (Linux_x64).lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/Linux64/SV Interface (Linux_x64).lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/c</Property>
+				<Property Name="Destination[1].path" Type="Path">/Linux64</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E7AA56D5-446A-4424-B57E-9FDC8B7A66A8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{853A4116-D246-4E68-8788-369C78CB89AE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/Shared Variable Interface.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/Shared Variable Interface.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -115,12 +146,12 @@
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">SV Interface Pharlap</Property>
-				<Property Name="TgtF_internalName" Type="Str">SV Interface Pharlap</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">SV Interface (Linux_x64)</Property>
+				<Property Name="TgtF_internalName" Type="Str">SV Interface (Linux_x64)</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 NI</Property>
-				<Property Name="TgtF_productName" Type="Str">SV Interface Pharlap</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{9DA68784-3A1E-4A72-8C9B-09BD9F9B0DD6}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">SV Interface (Pharlap).lvlibp</Property>
+				<Property Name="TgtF_productName" Type="Str">SV Interface (Linux_x64)</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{743A556E-67EF-41B9-AAEA-57FF81E4B5FF}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">SV Interface (Linux_x64).lvlibp</Property>
 			</Item>
 		</Item>
 	</Item>

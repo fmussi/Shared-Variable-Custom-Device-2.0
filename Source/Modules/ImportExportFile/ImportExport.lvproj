@@ -41,7 +41,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Administrator/Desktop/GIT/Shared-Variable-Custom-Device-2.0/Source/built/windows</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{13BC4820-332F-4B7B-9F38-B4B5EBDD0A86}</Property>
-				<Property Name="Bld_version.build" Type="Int">24</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ImportExport.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Administrator/Desktop/GIT/Shared-Variable-Custom-Device-2.0/Source/built/windows/NI_AB_PROJECTNAME.lvlibp</Property>
@@ -53,7 +53,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3B92D253-4FEA-46D7-B32F-68CE46E3377D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8FAE626C-9AC8-4E22-9DB0-2CE8614D69E1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ImportExportFile/ImportExport.lvlib</Property>

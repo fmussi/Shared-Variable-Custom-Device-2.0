@@ -29,7 +29,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Administrator/Desktop/GIT/Shared-Variable-Custom-Device-2.0/Source/built/windows</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{691B186B-15D1-4B7A-ADC5-B8A801A21673}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Channel.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Administrator/Desktop/GIT/Shared-Variable-Custom-Device-2.0/Source/built/windows/Channel.lvlibp</Property>
@@ -41,7 +41,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AD494277-C99F-4744-BAA2-53703D866912}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BECC6D18-69AB-42AC-A39E-A4C40730BED3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Channel/Channel.lvlib</Property>

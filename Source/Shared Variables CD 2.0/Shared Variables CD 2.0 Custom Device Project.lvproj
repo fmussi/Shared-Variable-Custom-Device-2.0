@@ -32,35 +32,35 @@
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../../SV Interface/Copy .LLB to NI VeriStand dir.vi"/>
 		</Item>
 		<Item Name="Async Process" Type="Folder">
-			<Item Name="SV Interface (Pharlap).lvlibp" Type="LVLibp" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp">
+			<Item Name="SV Interface (Pharlap).lvlibp" Type="LVLibp" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp">
 				<Item Name="DataTypes" Type="Folder">
-					<Item Name="DBL.lvlib" Type="Library" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/DataTypes/DBL.lvlib"/>
-					<Item Name="Bool.lvlib" Type="Library" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/DataTypes/Bool.lvlib"/>
+					<Item Name="DBL.lvlib" Type="Library" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/DataTypes/DBL.lvlib"/>
+					<Item Name="Bool.lvlib" Type="Library" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/DataTypes/Bool.lvlib"/>
 				</Item>
 				<Item Name="SubVIs" Type="Folder">
-					<Item Name="Create FIFOs.vi" Type="VI" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/SubVI/Create FIFOs.vi"/>
-					<Item Name="Error Handler.vi" Type="VI" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/SubVI/Error Handler.vi"/>
-					<Item Name="Read SV.vi" Type="VI" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/SubVI/Read SV.vi"/>
-					<Item Name="Stop and Stop on Error.vi" Type="VI" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/SubVI/Stop and Stop on Error.vi"/>
-					<Item Name="Write SV.vi" Type="VI" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/SubVI/Write SV.vi"/>
+					<Item Name="Create FIFOs.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/SubVI/Create FIFOs.vi"/>
+					<Item Name="Error Handler.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/SubVI/Error Handler.vi"/>
+					<Item Name="Read SV.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/SubVI/Read SV.vi"/>
+					<Item Name="Stop and Stop on Error.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/SubVI/Stop and Stop on Error.vi"/>
+					<Item Name="Write SV.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/SubVI/Write SV.vi"/>
 				</Item>
-				<Item Name="Clear Errors.vi" Type="VI" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Initialize SV Interface.vi" Type="VI" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/Initialize SV Interface.vi"/>
-				<Item Name="ni_tagger_lv_FlushAllConnections.vi" Type="VI" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/1abvi3w/vi.lib/variable/tagger/ni_tagger_lv_FlushAllConnections.vi"/>
-				<Item Name="NI_VariableUtilities.lvlib" Type="Library" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/1abvi3w/vi.lib/Utility/Variable/NI_VariableUtilities.lvlib"/>
-				<Item Name="nirviCommon.vi" Type="VI" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
-				<Item Name="Notify Closing Status.vi" Type="VI" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/Notify Closing Status.vi"/>
-				<Item Name="Open References to Shared Variables.vi" Type="VI" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/Open References to Shared Variables.vi"/>
-				<Item Name="Run SV process.vi" Type="VI" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/Run SV process.vi"/>
-				<Item Name="Stop and Close SV.vi" Type="VI" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/Stop and Close SV.vi"/>
-				<Item Name="SV Data.ctl" Type="VI" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/SV Data.ctl"/>
-				<Item Name="SV Process Configuration.ctl" Type="VI" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/SV Process Configuration.ctl"/>
-				<Item Name="SV_Process.vi" Type="VI" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV_Process.vi"/>
-				<Item Name="SVGlobal_ReadStat.vi" Type="VI" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/SVGlobal_ReadStat.vi"/>
-				<Item Name="SVGlobal_StatusStop.vi" Type="VI" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/SVGlobal_StatusStop.vi"/>
-				<Item Name="SVGlobal_WriteStat.vi" Type="VI" URL="../../Built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/SVGlobal_WriteStat.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Initialize SV Interface.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/Initialize SV Interface.vi"/>
+				<Item Name="ni_tagger_lv_FlushAllConnections.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/1abvi3w/vi.lib/variable/tagger/ni_tagger_lv_FlushAllConnections.vi"/>
+				<Item Name="NI_VariableUtilities.lvlib" Type="Library" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/1abvi3w/vi.lib/Utility/Variable/NI_VariableUtilities.lvlib"/>
+				<Item Name="nirviCommon.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
+				<Item Name="Notify Closing Status.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/Notify Closing Status.vi"/>
+				<Item Name="Open References to Shared Variables.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/Open References to Shared Variables.vi"/>
+				<Item Name="Run SV process.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/Run SV process.vi"/>
+				<Item Name="Stop and Close SV.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/Stop and Close SV.vi"/>
+				<Item Name="SV Data.ctl" Type="VI" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/SV Data.ctl"/>
+				<Item Name="SV Process Configuration.ctl" Type="VI" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/SV Process Configuration.ctl"/>
+				<Item Name="SV_Process.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV_Process.vi"/>
+				<Item Name="SVGlobal_ReadStat.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/SVGlobal_ReadStat.vi"/>
+				<Item Name="SVGlobal_StatusStop.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/SVGlobal_StatusStop.vi"/>
+				<Item Name="SVGlobal_WriteStat.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Pharlap/c/SV Interface (Pharlap).lvlibp/SV Interface/SVGlobal_WriteStat.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Shared DataTypes" Type="Folder">
@@ -87,36 +87,36 @@
 			<Item Name="SV Global.vi" Type="VI" URL="../Shared/SV Global.vi"/>
 		</Item>
 		<Item Name="Modules" Type="Folder">
-			<Item Name="ImportExport.lvlibp" Type="LVLibp" URL="../../Built/windows/ImportExport.lvlibp">
-				<Item Name="ConfigFile.lvclass" Type="LVClass" URL="../../Built/windows/ImportExport.lvlibp/ConfigFile/ConfigFile.lvclass"/>
-				<Item Name="Open File.vi" Type="VI" URL="../../Built/windows/ImportExport.lvlibp/Open File.vi"/>
-				<Item Name="Write File.vi" Type="VI" URL="../../Built/windows/ImportExport.lvlibp/Write File.vi"/>
-				<Item Name="Read File.vi" Type="VI" URL="../../Built/windows/ImportExport.lvlibp/Read File.vi"/>
-				<Item Name="Close File.vi" Type="VI" URL="../../Built/windows/ImportExport.lvlibp/Close File.vi"/>
-				<Item Name="Operation.ctl" Type="VI" URL="../../Built/windows/ImportExport.lvlibp/Operation.ctl"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../Built/windows/ImportExport.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../Built/windows/ImportExport.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../../Built/windows/ImportExport.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
-				<Item Name="List Directory and LLBs.vi" Type="VI" URL="../../Built/windows/ImportExport.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/List Directory and LLBs.vi"/>
-				<Item Name="Recursive File List.vi" Type="VI" URL="../../Built/windows/ImportExport.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Recursive File List.vi"/>
-				<Item Name="Get File Extension.vi" Type="VI" URL="../../Built/windows/ImportExport.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Get File Extension.vi"/>
+			<Item Name="ImportExport.lvlibp" Type="LVLibp" URL="../../built/windows/ImportExport.lvlibp">
+				<Item Name="ConfigFile.lvclass" Type="LVClass" URL="../../built/windows/ImportExport.lvlibp/ConfigFile/ConfigFile.lvclass"/>
+				<Item Name="Open File.vi" Type="VI" URL="../../built/windows/ImportExport.lvlibp/Open File.vi"/>
+				<Item Name="Write File.vi" Type="VI" URL="../../built/windows/ImportExport.lvlibp/Write File.vi"/>
+				<Item Name="Read File.vi" Type="VI" URL="../../built/windows/ImportExport.lvlibp/Read File.vi"/>
+				<Item Name="Close File.vi" Type="VI" URL="../../built/windows/ImportExport.lvlibp/Close File.vi"/>
+				<Item Name="Operation.ctl" Type="VI" URL="../../built/windows/ImportExport.lvlibp/Operation.ctl"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../built/windows/ImportExport.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../built/windows/ImportExport.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../../built/windows/ImportExport.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="../../built/windows/ImportExport.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="../../built/windows/ImportExport.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="../../built/windows/ImportExport.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Get File Extension.vi"/>
 			</Item>
-			<Item Name="Channel.lvlibp" Type="LVLibp" URL="../../Built/windows/Channel.lvlibp">
-				<Item Name="Channel.lvclass" Type="LVClass" URL="../../Built/windows/Channel.lvlibp/Channel.lvclass"/>
-				<Item Name="NI_Data Type.lvlib" Type="Library" URL="../../Built/windows/Channel.lvlibp/1abvi3w/vi.lib/Utility/Data Type/NI_Data Type.lvlib"/>
+			<Item Name="Channel.lvlibp" Type="LVLibp" URL="../../built/windows/Channel.lvlibp">
+				<Item Name="Channel.lvclass" Type="LVClass" URL="../../built/windows/Channel.lvlibp/Channel.lvclass"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="../../built/windows/Channel.lvlibp/1abvi3w/vi.lib/Utility/Data Type/NI_Data Type.lvlib"/>
 			</Item>
-			<Item Name="TXT.lvlibp" Type="LVLibp" URL="../../Built/windows/TXT.lvlibp">
-				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="../../Built/windows/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../Built/windows/TXT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="../../Built/windows/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
-				<Item Name="Get PString__ogtk.vi" Type="VI" URL="../../Built/windows/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
-				<Item Name="NI_Data Type.lvlib" Type="Library" URL="../../Built/windows/TXT.lvlibp/1abvi3w/vi.lib/Utility/Data Type/NI_Data Type.lvlib"/>
-				<Item Name="Set Enum String Value__ogtk.vi" Type="VI" URL="../../Built/windows/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Set Enum String Value__ogtk.vi"/>
-				<Item Name="TXT.lvclass" Type="LVClass" URL="../../Built/windows/TXT.lvlibp/TXT.lvclass"/>
-				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="../../Built/windows/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
-				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="../../Built/windows/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
-				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="../../Built/windows/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
-				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="../../Built/windows/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
+			<Item Name="TXT.lvlibp" Type="LVLibp" URL="../../built/windows/TXT.lvlibp">
+				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="../../built/windows/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../built/windows/TXT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="../../built/windows/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
+				<Item Name="Get PString__ogtk.vi" Type="VI" URL="../../built/windows/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="../../built/windows/TXT.lvlibp/1abvi3w/vi.lib/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="Set Enum String Value__ogtk.vi" Type="VI" URL="../../built/windows/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Set Enum String Value__ogtk.vi"/>
+				<Item Name="TXT.lvclass" Type="LVClass" URL="../../built/windows/TXT.lvlibp/TXT.lvclass"/>
+				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="../../built/windows/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
+				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="../../built/windows/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
+				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="../../built/windows/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
+				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="../../built/windows/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
 			</Item>
 		</Item>
 		<Item Name="_deps" Type="Folder"/>
@@ -218,7 +218,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build Support/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{81FCD44D-B9FD-44D4-9664-F0FE5D64AAE5}</Property>
-				<Property Name="Bld_version.build" Type="Int">351</Property>
+				<Property Name="Bld_version.build" Type="Int">352</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Shared Variables CD 2.0</Property>
@@ -230,7 +230,7 @@
 				<Property Name="Destination[3].destName" Type="Str">Glyphs</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/Shared Variables CD 2.0/Glyphs</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FE284709-3F30-4C4F-920F-27EAB456A5EA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{052BAEE8-0B46-43F9-B523-410B3946F71A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Shared Variables CD 2.0.xml</Property>
@@ -282,7 +282,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build Support/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{660E161F-9BF5-4F5C-A978-8C1B7B206E7F}</Property>
-				<Property Name="Bld_version.build" Type="Int">248</Property>
+				<Property Name="Bld_version.build" Type="Int">249</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Shared Variables CD 2.0/Windows/Shared Variables CD Engine.llb</Property>
@@ -290,7 +290,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Shared Variables CD 2.0/Windows/Data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{423526BC-8E8F-496E-9DC2-53CE174C7E6C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{052BAEE8-0B46-43F9-B523-410B3946F71A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -498,35 +498,35 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Async Process" Type="Folder">
-			<Item Name="SV Interface (Linux_x64).lvlibp" Type="LVLibp" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp">
+			<Item Name="SV Interface (Linux_x64).lvlibp" Type="LVLibp" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp">
 				<Item Name="DataTypes" Type="Folder">
-					<Item Name="DBL.lvlib" Type="Library" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/DataTypes/DBL.lvlib"/>
-					<Item Name="Bool.lvlib" Type="Library" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/DataTypes/Bool.lvlib"/>
+					<Item Name="DBL.lvlib" Type="Library" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/DataTypes/DBL.lvlib"/>
+					<Item Name="Bool.lvlib" Type="Library" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/DataTypes/Bool.lvlib"/>
 				</Item>
 				<Item Name="SubVIs" Type="Folder">
-					<Item Name="Create FIFOs.vi" Type="VI" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/SV Interface/SubVI/Create FIFOs.vi"/>
-					<Item Name="Error Handler.vi" Type="VI" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/SV Interface/SubVI/Error Handler.vi"/>
-					<Item Name="Read SV.vi" Type="VI" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/SV Interface/SubVI/Read SV.vi"/>
-					<Item Name="Stop and Stop on Error.vi" Type="VI" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/SV Interface/SubVI/Stop and Stop on Error.vi"/>
-					<Item Name="Write SV.vi" Type="VI" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/SV Interface/SubVI/Write SV.vi"/>
+					<Item Name="Create FIFOs.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/SV Interface/SubVI/Create FIFOs.vi"/>
+					<Item Name="Error Handler.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/SV Interface/SubVI/Error Handler.vi"/>
+					<Item Name="Read SV.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/SV Interface/SubVI/Read SV.vi"/>
+					<Item Name="Stop and Stop on Error.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/SV Interface/SubVI/Stop and Stop on Error.vi"/>
+					<Item Name="Write SV.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/SV Interface/SubVI/Write SV.vi"/>
 				</Item>
-				<Item Name="Clear Errors.vi" Type="VI" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Initialize SV Interface.vi" Type="VI" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/SV Interface/Initialize SV Interface.vi"/>
-				<Item Name="ni_tagger_lv_FlushAllConnections.vi" Type="VI" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/1abvi3w/vi.lib/variable/tagger/ni_tagger_lv_FlushAllConnections.vi"/>
-				<Item Name="NI_VariableUtilities.lvlib" Type="Library" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/1abvi3w/vi.lib/Utility/Variable/NI_VariableUtilities.lvlib"/>
-				<Item Name="nirviCommon.vi" Type="VI" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
-				<Item Name="Notify Closing Status.vi" Type="VI" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/SV Interface/Notify Closing Status.vi"/>
-				<Item Name="Open References to Shared Variables.vi" Type="VI" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/SV Interface/Open References to Shared Variables.vi"/>
-				<Item Name="Run SV process.vi" Type="VI" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/SV Interface/Run SV process.vi"/>
-				<Item Name="Stop and Close SV.vi" Type="VI" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/SV Interface/Stop and Close SV.vi"/>
-				<Item Name="SV Data.ctl" Type="VI" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/SV Interface/SV Data.ctl"/>
-				<Item Name="SV Process Configuration.ctl" Type="VI" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/SV Interface/SV Process Configuration.ctl"/>
-				<Item Name="SV_Process.vi" Type="VI" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/SV_Process.vi"/>
-				<Item Name="SVGlobal_ReadStat.vi" Type="VI" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/SV Interface/SVGlobal_ReadStat.vi"/>
-				<Item Name="SVGlobal_StatusStop.vi" Type="VI" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/SV Interface/SVGlobal_StatusStop.vi"/>
-				<Item Name="SVGlobal_WriteStat.vi" Type="VI" URL="../Support/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp/SV Interface/SVGlobal_WriteStat.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Initialize SV Interface.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/SV Interface/Initialize SV Interface.vi"/>
+				<Item Name="ni_tagger_lv_FlushAllConnections.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/1abvi3w/vi.lib/variable/tagger/ni_tagger_lv_FlushAllConnections.vi"/>
+				<Item Name="NI_VariableUtilities.lvlib" Type="Library" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/1abvi3w/vi.lib/Utility/Variable/NI_VariableUtilities.lvlib"/>
+				<Item Name="nirviCommon.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
+				<Item Name="Notify Closing Status.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/SV Interface/Notify Closing Status.vi"/>
+				<Item Name="Open References to Shared Variables.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/SV Interface/Open References to Shared Variables.vi"/>
+				<Item Name="Run SV process.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/SV Interface/Run SV process.vi"/>
+				<Item Name="Stop and Close SV.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/SV Interface/Stop and Close SV.vi"/>
+				<Item Name="SV Data.ctl" Type="VI" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/SV Interface/SV Data.ctl"/>
+				<Item Name="SV Process Configuration.ctl" Type="VI" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/SV Interface/SV Process Configuration.ctl"/>
+				<Item Name="SV_Process.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/SV_Process.vi"/>
+				<Item Name="SVGlobal_ReadStat.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/SV Interface/SVGlobal_ReadStat.vi"/>
+				<Item Name="SVGlobal_StatusStop.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/SV Interface/SVGlobal_StatusStop.vi"/>
+				<Item Name="SVGlobal_WriteStat.vi" Type="VI" URL="../../built/Shared Variables CD 2.0/Linux64/SV Interface (Linux_x64).lvlibp/SV Interface/SVGlobal_WriteStat.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Shared" Type="Folder">
@@ -621,7 +621,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build Support/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A9E9DD3E-9940-4D23-8AB6-72F973571B82}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">Linux64/Shared Variable CD 2.0 Engine (Linux_x64).llb</Property>
-				<Property Name="Bld_version.build" Type="Int">58</Property>
+				<Property Name="Bld_version.build" Type="Int">59</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">Linux64/Shared Variable CD 2.0 Engine (Linux_x64).llb</Property>
@@ -631,63 +631,16 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/Linux64</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{78527EA7-1B81-4954-8929-683051845976}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D6519581-3D39-47B2-916C-0A0A9B07C467}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/Async Process/SV Interface (Linux_x64).lvlibp</Property>
-				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/Shared Variables CD 2.0 Engine.lvlib/Engine</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-			</Item>
-			<Item Name="SV Interface (Linux_x64)" Type="Packed Library">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{8FFFD5C9-8F87-4E19-913C-2EB127DB84B1}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">SV Interface (Linux_x64)</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Support</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{F483C054-5960-4AC8-8BA7-065B215B97CB}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">41</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">SV Interface (Linux_x64).lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/SV Interface (Linux_x64).lvlibp</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A236CEFA-482C-4E05-9A72-AF801D281904}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/Shared Variable Interface.lvlib</Property>
-				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
-				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
-				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/Shared Variables CD 2.0 Engine.lvlib/Engine</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">NI</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">SV Interface (Linux_x64)</Property>
-				<Property Name="TgtF_internalName" Type="Str">SV Interface (Linux_x64)</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 NI</Property>
-				<Property Name="TgtF_productName" Type="Str">SV Interface (Linux_x64)</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{743A556E-67EF-41B9-AAEA-57FF81E4B5FF}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">SV Interface (Linux_x64).lvlibp</Property>
 			</Item>
 		</Item>
 	</Item>

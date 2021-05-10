@@ -16,6 +16,13 @@ Builds available in the builds directory, everything in project is there to buil
 
 Build the following components in order (TBC)
 
+1. Source\Modules\Channel\Channels.lvproj (build packed library)
+2. Source\Modules\ImportExport\ImportExport.lvproj (build packed library)
+3. Source\Modules\FileTypes\TXT\TXT.lvproj (build packed library)
+4. Source\SV Interface\SV interface project.lvproj (build packed library)
+5. Source\SV Interface\SV interface project (Linux_x64).lvproj (build packed library)
+6. Source\Shared Variables CD 2.0\Shared Variables CD 2.0 Custom Device Project.lvproj (build Configuration, Engine on My Computer and Engine on RT CompactRIO Target for linux x64(
+
 ### Quality, Limitations ###
 
 This IP only supports Boolean, SingleFloating Point, Double Floating Point, I8, I16, I32, U8, U16, U32 data types. 
